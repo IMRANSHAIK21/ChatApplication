@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../Cssfiles/Login.css">
+    <link rel="stylesheet" href="../Cssfiles/Register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h2>Register</h2>
+            <form action="./RegisterSuccess.html" id="registrationForm" onsubmit="return Authenticaiton()">
+                <div class="userName">
+                    <label for="fullName">Full Name</label>
+                    <input id="fullName" type="text" required>
+                </div>
+                <div class="emailAddress">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" required>
+                </div>
+                <div class="password">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" required>
+                </div>
+                <div class="password">
+                    <label  for="fullName">Confirm Password</label>
+                    <input id="confirmPassword" type="text" required>
+                </div>
+                <div class="buttons">
+                    <button type="submit" class="btn btn-info">Register</button>
+                </div>
+            </form>
+    
+        </div>
+    </div>
+    <script src="../JavascriptFiles/Register.js" ></script>
+    <script src="../JavascriptFiles/main.js" type="module"></script>
+</body>
+</html>
